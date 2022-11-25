@@ -7,7 +7,8 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
 
 	<link rel="stylesheet" href="css/animate.css">
 	
@@ -26,6 +27,12 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+	<link rel="stylesheet" href="../X/css/quiz.css">
+
+  
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -49,13 +56,13 @@
 	</nav>
 	<!-- END nav -->
 	
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/study.jpg');">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end justify-content-center">
 				<div class="col-md-9 ftco-animate pb-5 text-center">
-					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Contact us <i class="fa fa-chevron-right"></i></span></p>
-					<h1 class="mb-0 bread">Contact us</h1>
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Kelas <i class="fa fa-chevron-right"></i></span></p>
+					<h1 class="mb-0 bread">Kelas</h1>
 				</div>
 			</div>
 		</div>
@@ -69,7 +76,7 @@
 						<div class="row no-gutters">
 							<div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
 								<div class="contact-wrap w-100 p-md-5 p-4">
-									<h3 class="mb-4">Get in touch</h3>
+									<h3 class="mb-4">Free Absorption</h3>
 									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
 										<div class="row">
 											<div class="row">
@@ -97,9 +104,11 @@
 												<div class="col-sm-6">
 												  <div class="card">
 													<div class="card-body">
-													  <h5 class="card-title">Special title treatment</h5>
+													  <h5 class="card-title">Matriks, Ordo dan Elemen-nya</h5>
 													  <p class="card-text">latihan</p>
-													  <a href="#" class="btn btn-primary">Go somewhere</a>
+													  <div class="row">
+														<div class="start_btn"><button type="button" class="btn btn-link" >Start Quiz</button></div>
+														</div>
 													</div>
 												  </div>
 												</div>
@@ -117,7 +126,7 @@
 											<span class="fa fa-bookmark"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span></span> <a href="../X/matematika.html" title="Mata pelajaran B.Indonesia">Geometri Bidang Datar</a></p>
+											<p><span></span> <a href="../X/matematika.html" title="Mata pelajaran B.Indonesia">Pertidaksamaan Linear</a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -125,7 +134,7 @@
 											<span class="fa fa-bookmark"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span></span> <a href="#" title="Mata pelajaran B.Indonesia">Geometri Bidang Ruang</a></p>
+											<p><span></span> <a href="#" title="Mata pelajaran B.Indonesia">Sistem Persamaan Linear</a></p>
 										</div>
 									</div>
 									<div class="dbox w-100 d-flex align-items-center">
@@ -133,7 +142,7 @@
 											<span class="fa fa-bookmark"></span>
 										</div>
 										<div class="text pl-3">
-											<p><span></span> <a href="#" title="Mata pelajaran B.Indonesia">Pengantar Statistika</a></p>
+											<p><span></span> <a href="#" title="Mata pelajaran B.Indonesia">Persamaan Garis Lurus</a></p>
 										</div>
 									</div>
 
@@ -149,6 +158,7 @@
 	<!-- Modal -->
 	
 	<!-- Modal 1 -->
+	<div class="modal_text">
 	<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
 		  <div class="modal-content">
@@ -159,9 +169,9 @@
 			  </button>
 			</div>
 			<div class="modal-body">
-			 <p>
+			 <span class="subheading">
 			  Matriks adalah sekumpulan bilangan yang disusun berdasarkan baris dan kolom, serta ditempatkan di dalam tanda kurung. Nah, tanda kurungnya ini bisa berupa kurung biasa “( )” atau kurung siku “[ ]”, ya. Suatu matriks diberi nama dengan huruf kapital, seperti A, B, C, dan seterusnya. 
-			 </p>
+			 </span>
 			 <p>
 			  Oh iya, kamu tau kan bedanya baris dan kolom? Baris itu susunannya horizontal atau ke samping, sedangkan kolom susunannya vertikal atau dari atas ke bawah. 
 			 </p>
@@ -207,6 +217,7 @@
 			</div>
 			<div class="modal-footer">
 			  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
 			  
 			</div>
 		  </div>
@@ -244,8 +255,78 @@
 		<div class="modal__backdrop"></div>
 	<!-- /Modal 2 -->
 
-	<!-- /Modal -->
+		<!-- Modal 3 -->
+		
+		<div class="info_box">
+			<div class="info-title"><span>Beberapa peraturan untuk quiz ini</span></div>
+			<div class="info-list">
+				<div class="info">1. Kamu hanya bisa mengerjakan dalam waktu <span>15 detik</span> Per soal.</div>
+				<div class="info">2. Pilihlah dengan hati-hati karena anda tidak dapat mengganti jawaban anda.</div>
+				<div class="info">3. Setelah waktu habis anda tidak bisa memilih soal.</div>
+				<div class="info">4. <span>Ingat</span> setelah memulai quiz anda tidak bisa kembali lagi.</div>
+				<div class="info">5. Anda akan mendapatkan 1 poin untuk setiap jawaban yang benar </div>
+				<div class="info"><center>Selamat Mengerjakan!!!</center> </div>
+			</div>
+			<div class="buttons">
+				<button class="quit">Keluar</button>
+				<button class="restart">Lanjutkan</button>
+			</div>
+		</div>
+	  
+		<!-- Quiz Box -->
+		<div class="quiz_box">
+			<header>
+				<div class="title">Let's Absorb The Quiz</div>
+				<div class="timer">
+					<div class="time_left_txt">waktu</div>
+					<div class="timer_sec">15</div>
+				</div>
+				<div class="time_line"></div>
+			</header>
+			<section>
+				<div class="que_text">
+					<!-- Here I've inserted question from JavaScript -->
+				</div>
+				<div class="option_list">
+					<!-- Here I've inserted options from JavaScript -->
+				</div>
+			</section>
+	  
+			<!-- footer of Quiz Box -->
+			
+				<footer class="footer_quiz">
+				<div class="total_que">
+					<!-- Here I've inserted Question Count Number from JavaScript -->
+				</div>
+				<button class="next_btn">Next</button>
+				</footer>
+			
+		</div>
+	  
+		<!-- Result Box -->
+		<div class="result_box">
+			<div class="icon">
+				<i class="fas fa-crown"></i>
+			</div>
+			<div class="complete_text">Quiz telah berakhir</div>
+			<div class="score_text">
+				<!-- Here I've inserted Score Result from JavaScript -->
+			</div>
+			<div class="buttons">
+				<button class="restart">Replay Quiz</button>
+				<button class="quit">Keluar Quiz</button>
+			</div>
+		</div>
+	  
+		<!-- Script -->
+		<script src="../X/js/quiz.js"></script>
 
+		<!-- Soal -->
+		<script src="../X/Quiz/matematika/soal1.js"></script>
+	  
+		<!-- /Modal 3 -->
+
+	<!-- /Modal -->
 
 	<footer class="ftco-footer ftco-no-pt">
 		<div class="container">
@@ -304,12 +385,16 @@
 				<div class="col-md-12 text-center">
 
 					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Let's Absorb
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 					</div>
 				</div>
 			</div>
 		</footer>
+
+		
+
+	
 		
 		
 
